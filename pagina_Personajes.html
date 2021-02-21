@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu Personaje</title>
+</head>
+<body>
+    <a href="index.html">Inicio</a>
+  <br>
+
+    <p>Crea tu propio personaje</p><br>
+    <label for="correo">Correo Electronico</label>
+    <input type="mail" name="correo" placeholder="correo@gmail.com" required><br>
+
+    <label for="username">Nombre del personaje: </label>
+    <input type="text" value="" name="username" required><br>
+
+    <label for="password">Contraseña: </label>
+    <input type="password" name="password" required><br>
+
+    <label for="faccion">Faccion: </label>
+    <select name="faccion" required>
+        <option value="UNSC">UNSC</option>
+        <option value="Covt">Covenant</option>
+        <option value="Fore">Foreruner</option>
+    </select><br>
+
+    <label for="NoSerie">Numero de serie del personaje: </label>
+    <input type="number" name="NoSerie" min="001" max="200"required><br>
+    <br>
+
+    <label for="coment">Comentario</label>
+    <textarea name="coment" placeholder="Escribe un comentario sobre tu personaje"></textarea><br>
+    
+    <br>
+    <button type="submit">Guardar</button>
+
+</body>
+</html>
